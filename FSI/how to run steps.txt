@@ -1,0 +1,30 @@
+how to run steps
+
+open anaconda prompt form search
+
+type
+
+cd C:\Users\home\Desktop\customer churn telecom
+
+type
+
+python app.py  ( enter copy this link paste in chomre)
+
+website will open
+
+enter data from dataset 
+
+click submit u will get result
+
+how to run algorithm 
+
+
+open another anaconda prompt form search
+
+type
+
+cd C:\Users\home\Desktop\customer churn telecom
+
+type
+
+jupyter notebook TelecomCustomerChurn.ipynb ( enter ) 

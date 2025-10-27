@@ -1,0 +1,62 @@
+
+(base) C:\Users\home>cd C:\Users\home\Desktop\customer churn telecom
+
+(base) C:\Users\home\Desktop\customer churn telecom>jupyter notebook TelecomCustomerChurn.ipynb
+[I 2024-08-26 11:59:48.413 ServerApp] Package notebook took 0.0000s to import
+[I 2024-08-26 11:59:48.429 ServerApp] Package jupyter_lsp took 0.0229s to import
+[W 2024-08-26 11:59:48.429 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-08-26 11:59:48.444 ServerApp] Package jupyter_server_terminals took 0.0143s to import
+[I 2024-08-26 11:59:48.444 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2024-08-26 11:59:49.261 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2024-08-26 11:59:49.261 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-08-26 11:59:50.847 ServerApp] Package panel.io.jupyter_server_extension took 1.5833s to import
+[I 2024-08-26 11:59:50.847 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-08-26 11:59:50.863 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-08-26 11:59:50.884 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-08-26 11:59:50.910 ServerApp] notebook | extension was successfully linked.
+[I 2024-08-26 11:59:51.397 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-08-26 11:59:51.397 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2024-08-26 11:59:51.492 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-08-26 11:59:51.492 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-08-26 11:59:51.492 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-08-26 11:59:51.492 LabApp] JupyterLab extension loaded from C:\Users\home\anaconda3\Lib\site-packages\jupyterlab
+[I 2024-08-26 11:59:51.507 LabApp] JupyterLab application directory is C:\Users\home\anaconda3\share\jupyter\lab
+[I 2024-08-26 11:59:51.507 LabApp] Extension Manager is 'pypi'.
+[I 2024-08-26 11:59:51.507 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-08-26 11:59:51.523 ServerApp] notebook | extension was successfully loaded.
+[I 2024-08-26 11:59:51.523 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2024-08-26 11:59:51.539 ServerApp] Serving notebooks from local directory: C:\Users\home\Desktop\customer churn telecom
+[I 2024-08-26 11:59:51.539 ServerApp] Jupyter Server 2.10.0 is running at:
+[I 2024-08-26 11:59:51.539 ServerApp] http://localhost:8888/tree?token=6733c4ce7f35c2b7b5eea48fb1ba85ecdd6e986b74d2ba9a
+[I 2024-08-26 11:59:51.539 ServerApp]     http://127.0.0.1:8888/tree?token=6733c4ce7f35c2b7b5eea48fb1ba85ecdd6e986b74d2ba9a
+[I 2024-08-26 11:59:51.539 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-08-26 11:59:51.695 ServerApp]
+
+    To access the server, open this file in a browser:
+        file:///C:/Users/home/AppData/Roaming/jupyter/runtime/jpserver-23912-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/tree?token=6733c4ce7f35c2b7b5eea48fb1ba85ecdd6e986b74d2ba9a
+        http://127.0.0.1:8888/tree?token=6733c4ce7f35c2b7b5eea48fb1ba85ecdd6e986b74d2ba9a
+[W 2024-08-26 11:59:51.789 ServerApp] Could not determine npm prefix: [WinError 2] The system cannot find the file specified
+[I 2024-08-26 11:59:51.886 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2024-08-26 11:59:54.690 JupyterNotebookApp] 302 GET /tree/TelecomCustomerChurn.ipynb?token=[secret] (7005843553204a45abd03bf58340c8c8@::1) 6.03ms
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.01s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2024-08-26 11:59:59.675 ServerApp] Notebook TelecomCustomerChurn.ipynb is not trusted
+[I 2024-08-26 12:00:00.925 ServerApp] Kernel started: 2f6e95d1-0d2c-44ec-94f5-bf2e9d781947
+[W 2024-08-26 12:00:01.027 ServerApp] Notebook TelecomCustomerChurn.ipynb is not trusted
+[I 2024-08-26 12:00:01.650 ServerApp] Kernel started: fe2c422e-ae69-4549-b8de-e4ac0930c3b7
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-08-26 12:00:03.455 ServerApp] Connecting to kernel 2f6e95d1-0d2c-44ec-94f5-bf2e9d781947.
+0.01s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-08-26 12:00:04.125 ServerApp] Connecting to kernel fe2c422e-ae69-4549-b8de-e4ac0930c3b7.
+
+(base) C:\Users\home\Desktop\customer churn telecom>

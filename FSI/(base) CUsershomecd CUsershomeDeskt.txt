@@ -1,0 +1,62 @@
+(base) C:\Users\home>cd C:\Users\home\Desktop\customer churn telecom
+
+(base) C:\Users\home\Desktop\customer churn telecom>python.py
+'python.py' is not recognized as an internal or external command,
+operable program or batch file.
+
+(base) C:\Users\home\Desktop\customer churn telecom>python app.py
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [26/Aug/2024 11:59:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 11:59:01] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Aug/2024 11:59:58] "GET /favicon.ico HTTP/1.1" 404 -
+[2024-08-26 12:02:24,774] ERROR in app: Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\home\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\home\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\home\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\home\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\home\Desktop\customer churn telecom\app.py", line 28, in predict
+    MonthlyCharges = float(request.form['MonthlyCharges'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+127.0.0.1 - - [26/Aug/2024 12:02:24] "POST / HTTP/1.1" 500 -
+[2024-08-26 12:02:29,136] ERROR in app: Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\home\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\home\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\home\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\home\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\home\Desktop\customer churn telecom\app.py", line 28, in predict
+    MonthlyCharges = float(request.form['MonthlyCharges'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+127.0.0.1 - - [26/Aug/2024 12:02:29] "POST / HTTP/1.1" 500 -
+127.0.0.1 - - [26/Aug/2024 12:02:51] "GET / HTTP/1.1" 200 -
+C:\Users\home\anaconda3\Lib\site-packages\sklearn\base.py:432: UserWarning: X has feature names, but GradientBoostingClassifier was fitted without feature names
+  warnings.warn(
+C:\Users\home\anaconda3\Lib\site-packages\sklearn\base.py:432: UserWarning: X has feature names, but GradientBoostingClassifier was fitted without feature names
+  warnings.warn(
+127.0.0.1 - - [26/Aug/2024 12:03:40] "POST / HTTP/1.1" 200 -
+
+(base) C:\Users\home\Desktop\customer churn telecom>
+(base) C:\Users\home\Desktop\customer churn telecom>
