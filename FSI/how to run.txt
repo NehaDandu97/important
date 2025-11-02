@@ -1,0 +1,15 @@
+how to run 
+
+open anaconda prompt
+
+conda activate tf
+
+cd C:\Users\home\Desktop\churn new web
+
+python app.py
+
+http://127.0.0.1:5112
+
+paste in chomre website will open 
+
+done run and check 
